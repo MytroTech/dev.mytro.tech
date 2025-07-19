@@ -1,0 +1,193 @@
+@extends('frontend.layouts.html')
+
+@section('body')
+    <body class="internal_pages dark"> <!--  class="blockScroll"  -->
+
+    <div id="all">
+
+        @include('frontend.modules.header')
+
+        <div class="container">
+            <main>
+               <div id="content_block">
+                    <div class="page about_page">
+                       <div class="description_page right">
+                           <h1 class="title_page">@lang('frontend/nav.captions.about')</h1>
+                       </div>
+                    </div>
+
+                    <div id="under">
+                        <div class="page">
+
+                            <div class="work_principles instead_tooltip">
+                                <div class="block animate_block">
+                                    <div class="item item_animate">
+                                        <div class="text">
+                                            @lang('frontend/about.text.tooltips.leader')
+                                        </div>
+                                    </div>
+                                    <div class="item item_animate">
+                                        <div class="text">
+                                            @lang('frontend/about.text.tooltips.geo')
+                                        </div>
+                                    </div>
+                                    <div class="item item_animate">
+                                        <div class="text">
+                                            @lang('frontend/about.text.tooltips.capacity')
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="deep_water">
+                                <h2 class="title_page tal animate_block">
+                                    <div class="item_animate">
+                                        <div class="gradient_animation">
+                                            <i></i>
+                                            <div class="bg_animation">@lang('frontend/about.text.about.center.deep.title')</div>
+                                        </div>
+                                    </div>
+                                </h2>
+                                <div class="block">
+                                    <div class="ship">
+                                        @include('frontend.modules.svg.ship_'.session('site_lang'))
+                                    </div>
+                                    <div class="text animate_block">
+                                        <div class="item item1 item_animate">
+                                            <div class="top">@lang('frontend/about.text.about.center.deep.item1.top')</div>
+                                            <div class="mid">@lang('frontend/about.text.about.center.deep.item1.mid')</div>
+                                        </div>
+
+                                        <div class="item item2 item_animate">
+                                            <div class="top">@lang('frontend/about.text.about.center.deep.item2.top')</div>
+                                            <div class="mid">@lang('frontend/about.text.about.center.deep.item2.mid')</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="saving_block">
+                                <div class="animate_block">
+                                    <div class="item_animate">
+                                        <div class="gradient_animation">
+                                            <i></i>
+                                            <h2 class="title_page bg_animation tal">@lang('frontend/about.text.about.center.premium.title')</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="block animate_block">
+                                    <div class="item item_animate">
+                                        <div class="top">@lang('frontend/about.text.about.center.premium.port.top')</div>
+                                        <div class="text">@lang('frontend/about.text.about.center.premium.port.text')</div>
+                                    </div>
+                                    <div class="item item_animate">
+                                        <div class="top">@lang('frontend/about.text.about.center.premium.deep.top')</div>
+                                        <div class="text">@lang('frontend/about.text.about.center.premium.deep.text')</div>
+                                    </div>
+                                    <div class="item item_animate">
+                                        <div class="top">@lang('frontend/about.text.about.center.premium.ice.top')</div>
+                                        <div class="text">@lang('frontend/about.text.about.center.premium.ice.text')</div>
+                                    </div>
+                                    <div class="item item_animate">
+                                        <div class="top">@lang('frontend/about.text.about.center.premium.place.top')</div>
+                                        <div class="text">@lang('frontend/about.text.about.center.premium.place.text')</div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="power_growth">
+                                <div class="title animate_block">
+                                    <div class="item_animate">
+                                        <div class="gradient_animation">
+                                            <i></i>
+                                            <div class="bg_animation">@lang('frontend/about.text.about.center.growth.title')</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item animate_block">
+                                    <div class="barrel">
+                                        <img src="/frontend/img/barrel.svg" width="43" height="63" alt="">
+                                        <img src="/frontend/img/barrel.svg" width="43" height="63" alt="">
+                                        <img src="/frontend/img/barrel.svg" width="43" height="63" alt="">
+                                        <img src="/frontend/img/barrel.svg" width="43" height="63" alt="">
+                                    </div>
+
+                                    <div class="text text_animate text_animate1">
+                                        <div class="top">@lang('frontend/about.text.about.center.growth.2005.top')</div>
+                                        <div class="bot">@lang('frontend/about.text.about.center.growth.2005.bot')</div>
+                                    </div>
+                                </div>
+                                <div class="item animate_block">
+                                    <div class="barrel">
+                                        <img src="/frontend/img/barrel.svg" width="43" height="63" alt="">
+                                        <img src="/frontend/img/barrel.svg" width="43" height="63" alt="">
+                                        <img src="/frontend/img/barrel.svg" width="43" height="63" alt="">
+                                        <img src="/frontend/img/barrel.svg" width="43" height="63" alt="">
+                                        <img src="/frontend/img/barrel.svg" width="43" height="63" alt="">
+                                        <img src="/frontend/img/barrel.svg" width="43" height="63" alt="">
+                                    </div>
+
+                                    <div class="text text_animate text_animate2">
+                                        <div class="top">@lang('frontend/about.text.about.center.growth.2012.top')</div>
+                                        <div class="bot">@lang('frontend/about.text.about.center.growth.2012.bot')</div>
+                                    </div>
+                                </div>
+                                <div class="item --last animate_block">
+                                    <div class="barrel">
+                                        <img src="/frontend/img/barrel.svg" width="43" height="63" alt="">
+                                        <img src="/frontend/img/barrel.svg" width="43" height="63" alt="">
+                                        <img src="/frontend/img/barrel.svg" width="43" height="63" alt="">
+                                        <img src="/frontend/img/barrel.svg" width="43" height="63" alt="">
+                                        <img src="/frontend/img/barrel.svg" width="43" height="63" alt="">
+                                        <img src="/frontend/img/barrel.svg" width="43" height="63" alt="">
+                                        <img src="/frontend/img/barrel.svg" width="43" height="63" alt="">
+                                        <img src="/frontend/img/barrel.svg" width="43" height="63" alt="">
+                                    </div>
+
+                                    <div class="text text_animate text_animate3">
+                                        <div class="top">@lang('frontend/about.text.about.center.growth.2013.top')</div>
+                                        <div class="bot">@lang('frontend/about.text.about.center.growth.2013.bot')</div>
+                                    </div>
+                                </div>
+{{--                                <div class="item animate_block new">--}}
+{{--                                    <div class="barrel">--}}
+{{--                                        <img src="/frontend/img/barrel_or.svg" width="43" height="63" alt="">--}}
+{{--                                        <img src="/frontend/img/barrel_or.svg" width="43" height="63" alt="">--}}
+{{--                                        <img src="/frontend/img/barrel_or.svg" width="43" height="63" alt="">--}}
+{{--                                        <img src="/frontend/img/barrel_or.svg" width="43" height="63" alt="">--}}
+{{--                                        <img src="/frontend/img/barrel_or.svg" width="43" height="63" alt="">--}}
+{{--                                        <img src="/frontend/img/barrel_or.svg" width="43" height="63" alt="">--}}
+{{--                                        <img src="/frontend/img/barrel_or.svg" width="43" height="63" alt="">--}}
+{{--                                        <img src="/frontend/img/barrel_or.svg" width="43" height="63" alt="">--}}
+{{--                                        <img src="/frontend/img/barrel_or.svg" width="43" height="63" alt="">--}}
+{{--                                    </div>--}}
+
+{{--                                    <div class="text text_animate text_animate4">--}}
+{{--                                        <div class="top">@lang('frontend/about.text.about.center.growth.2018.top')</div>--}}
+{{--                                        <div class="bot">@lang('frontend/about.text.about.center.growth.2018.bot')</div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+                            </div>
+
+                        </div>
+
+
+                            <div class="partners">
+                                @include('frontend.modules.partners')
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                @include('frontend.modules.footer')
+            </main>
+        </div>
+    </div>
+
+    </body>
+@stop

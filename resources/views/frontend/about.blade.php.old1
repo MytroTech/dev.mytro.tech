@@ -1,0 +1,48 @@
+@extends('frontend.layouts.html')
+
+@section('body')
+    <body class="internal_pages dark"> <!--  class="blockScroll"  -->
+
+    <div id="all">
+
+        @include('frontend.modules.header')
+
+        <div class="container">
+
+            <main>
+                <div id="content_block" class="contact_page">
+
+
+                    <div class="page_content">
+                        <h1 class="title_page">@lang('frontend/nav.captions.about')</h1>
+                    </div>
+                    <div class="block">
+
+                        <div class="section">
+			    <h2>Who We Are</h2>
+			    <p>{{ $about->getTranslation('content', app()->getLocale())['who_we_are'] ?? '' }}</p>
+			</div>
+
+			<div class="section">
+			    <h2>What We Do</h2>
+			    <p>{{ $about->getTranslation('content', app()->getLocale())['what_we_do'] ?? '' }}</p>
+			</div>
+
+			<div class="section">
+			    <h2>How We Operate</h2>
+			    <p>{{ $about->getTranslation('content', app()->getLocale())['how_we_operate'] ?? '' }}</p>
+			</div>
+
+
+		    </div>
+
+                </div>
+
+                @include('frontend.modules.footer')
+            </main>
+        </div>
+
+    </div>
+
+    </body>
+@stop
