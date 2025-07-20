@@ -11,7 +11,6 @@
             <main>
                 <div id="content_block" class="contact_page">
 
-
                     <div class="page_content">
                         <h1 class="title_page">@lang('frontend/nav.captions.about')</h1>
                     </div>
