@@ -17,9 +17,9 @@
                     </div>
 
                     <div class="block">
-						<div class="about-section-group">
+						<div class="about_section_group">
 							{{-- Section 1: Who We Are --}}
-							<div class="about-section">
+							<div class="about_section">
 								<div class="icon mb-3">
 									{{-- People Icon --}}
 									<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -33,7 +33,7 @@
 							</div>
 
 							{{-- Section 2: What We Do --}}
-							<div class="about-section">
+							<div class="about_section">
 								<div class="icon mb-3">
 									{{-- Tools Icon --}}
 									<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -47,7 +47,7 @@
 							</div>
 
 							{{-- Section 3: How We Operate --}}
-							<div class="about-section">
+							<div class="about_section">
 								<div class="icon mb-3">
 									{{-- Gear Icon --}}
 									<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"

@@ -1690,6 +1690,7 @@ footer.hideFooter {
     pointer-events: auto
 }
 
+/*
 #full_screen .about_page {
     position: static !important
 }
@@ -1721,6 +1722,26 @@ footer.hideFooter {
 #full_screen .about_left p:last-child {
     margin-bottom: 0
 }
+*/
+
+.about_page .page_content {
+    z-index: 5;
+    position: relative
+}
+
+.about_page .block {
+    position: relative;
+    z-index: 5;
+    width: 460px;
+    margin: 0 auto;
+    -webkit-transform: translateX(66%);
+    -moz-transform: translateX(66%);
+    -ms-transform: translateX(66%);
+    -o-transform: translateX(66%);
+    transform: translateX(66%)
+}
+
+
 
 .internal_pages #full_screen {
     -webkit-box-pack: start;
