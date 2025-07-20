@@ -2234,6 +2234,28 @@ footer.hideFooter {
     align-items: center;
     margin: 0 0 20px
 }
+.section_group {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 50px auto;
+    max-width: 1100px;
+}
+
+.section {
+    flex: 1;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.section p {
+    font-size: 14px;
+    color: #555;
+}
 
 #next_service .ill_ns, .flex_block {
     display: -webkit-box;

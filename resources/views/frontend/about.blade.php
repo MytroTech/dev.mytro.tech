@@ -18,7 +18,7 @@
 
                     <div class="block">
 
-						<div class="about-sections" style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2rem; text-align: center;">
+						<div class="about-sections">
 
                         {{-- Section 1: Who We Are --}}
                         <div class="about-section">
