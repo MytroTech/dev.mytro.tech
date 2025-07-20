@@ -22,7 +22,7 @@
 						<div class="about_mt_section_group">
 							{{-- Section 1: Who We Are --}}
 							<div class="about_mt_section">
-								<div class="icon mb-3">
+								<div class="icon">
 									{{-- People Icon --}}
 									<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
 										 stroke-linecap="round" stroke-linejoin="round">
@@ -36,7 +36,7 @@
 
 							{{-- Section 2: What We Do --}}
 							<div class="about_mt_section">
-								<div class="icon mb-3">
+								<div class="icon">
 									{{-- Tools Icon --}}
 									<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
 										 stroke-linecap="round" stroke-linejoin="round">
@@ -50,7 +50,7 @@
 
 							{{-- Section 3: How We Operate --}}
 							<div class="about_mt_section">
-								<div class="icon mb-3">
+								<div class="icon">
 									{{-- Gear Icon --}}
 									<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
 										 stroke-linecap="round" stroke-linejoin="round">
