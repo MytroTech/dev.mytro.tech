@@ -18,8 +18,6 @@
 
                     <div class="block">
 
-						<div class="about-sections">
-
                         {{-- Section 1: Who We Are --}}
                         <div class="about-section">
                             <div class="icon mb-3">
@@ -64,13 +62,9 @@
                         </div>
 
                     </div>
-                </div>
+				</div>
 
-
-					</div>
-
-                </div>
-                @include('frontend.modules.footer')
+            @include('frontend.modules.footer')
             </main>
         </div>
 
