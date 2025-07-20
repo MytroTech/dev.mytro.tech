@@ -1725,8 +1725,10 @@ footer.hideFooter {
 */
 
 .about_page .page_content {
-    z-index: 5;
-    position: relative
+    padding: 160px 0 115px 0; /* top, right, bottom, left */
+    max-width: 1400px;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 
 .about_page .block {
