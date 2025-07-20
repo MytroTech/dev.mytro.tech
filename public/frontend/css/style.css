@@ -2234,7 +2234,7 @@ footer.hideFooter {
     align-items: center;
     margin: 0 0 20px
 }
-.section_group {
+.about-section-group {
     display: flex;
     justify-content: space-between;
     gap: 30px;
@@ -2242,17 +2242,17 @@ footer.hideFooter {
     max-width: 1100px;
 }
 
-.section {
+.about-section {
     flex: 1;
     text-align: center;
 }
 
-.section h2 {
+.about-section h2 {
     font-size: 20px;
     margin-bottom: 10px;
 }
 
-.section p {
+.about-section p {
     font-size: 14px;
     color: #555;
 }
