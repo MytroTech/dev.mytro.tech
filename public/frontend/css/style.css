@@ -3547,7 +3547,8 @@ footer .solar span {
     width: 100%;
     height: auto !important;
     padding: 160px 0 115px;
-    position: relative
+    position: relative;
+	background: linear-gradient(180deg, #ffffff 0%, #f9f9f9 100%);
 }
 
 .about_mt_page .title_page {
@@ -3749,20 +3750,21 @@ footer .solar span {
 .about_mt_section_group {
     display: flex;
     justify-content: space-between;
-    gap: 40px;
+    gap: 20px;
     flex-wrap: wrap;
-    margin-top: 40px;
+    margin-top: 40px
 }
 
 .about_mt_section {
-    flex: 1 1 30%;
-    max-width: 30%;
+    flex: 1 1 32%;
+    max-width: 32%;
     text-align: center;
     padding: 20px;
     background-color: #fff;
     border-radius: 12px;
     box-shadow: 0 0 10px rgba(0,0,0,0.05);
     transition: transform 0.3s ease;
+	min-height: 300px 
 }
 
 .about_mt_section:hover {
@@ -3771,18 +3773,18 @@ footer .solar span {
 
 .about_mt_section .icon {
     font-size: 32px;
-    margin-bottom: 15px;
+    margin-bottom: 15px
 }
 
 .about_mt_section h2 {
     font-size: 20px;
     margin-bottom: 10px;
-    color: #000;
+    color: #000
 }
 
 .about_mt_section p {
     font-size: 14px;
-    color: #555;
+    color: #555
 }
 
 
