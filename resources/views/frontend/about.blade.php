@@ -14,6 +14,9 @@
                     <div class="page_content">
                         <h1 class="title_page">@lang('frontend/nav.captions.about')</h1>
                     </div>
+					<div class="about_mt_intro">
+						<p>Discover our principles, operations, and organizational culture.</p>
+					</div>
 
                     <div class="block">
 						<div class="about_mt_section_group">

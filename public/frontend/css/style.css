@@ -3747,6 +3747,14 @@ footer .solar span {
     left: 24px
 }
 
+.about_mt_intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    font-size: 18px;
+    color: #555
+}
+
 .about_mt_section_group {
     display: flex;
     justify-content: space-between;
