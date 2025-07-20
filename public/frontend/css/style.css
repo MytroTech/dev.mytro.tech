@@ -3590,11 +3590,7 @@ footer .solar span {
     z-index: 5;
     width: 460px;
     margin: 0 auto;
-    -webkit-transform: translateX(66%);
-    -moz-transform: translateX(66%);
-    -ms-transform: translateX(66%);
-    -o-transform: translateX(66%);
-    transform: translateX(66%)
+    transform: none
 }
 
 .about_mt_page .phones {
