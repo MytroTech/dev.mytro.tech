@@ -9,7 +9,7 @@
         <div class="container">
 
             <main>
-                <div id="content_block" class="aboutn_page">
+                <div id="content_block" class="contact_page">
 
 
                     <div class="page_content">
