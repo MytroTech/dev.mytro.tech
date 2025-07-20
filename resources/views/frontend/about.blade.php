@@ -9,16 +9,16 @@
         <div class="container">
 
             <main>
-                <div id="content_block" class="contact_page">
+                <div id="content_block" class="about_mt_page">
 
                     <div class="page_content">
                         <h1 class="title_page">@lang('frontend/nav.captions.about')</h1>
                     </div>
 
                     <div class="block">
-						<div class="aboutn_section_group">
+						<div class="about_mt_section_group">
 							{{-- Section 1: Who We Are --}}
-							<div class="aboutn_section">
+							<div class="about_mt_section">
 								<div class="icon mb-3">
 									{{-- People Icon --}}
 									<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -32,7 +32,7 @@
 							</div>
 
 							{{-- Section 2: What We Do --}}
-							<div class="aboutn_section">
+							<div class="about_mt_section">
 								<div class="icon mb-3">
 									{{-- Tools Icon --}}
 									<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -46,7 +46,7 @@
 							</div>
 
 							{{-- Section 3: How We Operate --}}
-							<div class="aboutn_section">
+							<div class="about_mt_section">
 								<div class="icon mb-3">
 									{{-- Gear Icon --}}
 									<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
