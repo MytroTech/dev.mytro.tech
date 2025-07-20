@@ -30,7 +30,9 @@
 									</svg>
 								</div>
 								<h2>@lang('frontend/nav.captions.whoweare')</h2>
-								<p class="small text-muted">More about the company’s history, mission and vision</p>
+								<p class="small text-muted">MytroTECH is a forward-thinking IT company founded in 2024 with a mission to reduce cost and implement more modern and secure technology for growing businesses. Built by experienced IT leader, our company was born out of a desire to deliver smarter infrastructure, automation, and cybersecurity solutions without the complexity and delays of traditional consulting.
+								Over the past year, we’ve grown from a bold idea into a trusted technology partner serving clients across the United States and Europe. Our team brings deep expertise in enterprise IT, digital transformation, and modern DevOps practices.
+								We are not only solving today’s business challenges — we are also actively investing in the development of groundbreaking technologies and products that aim to improve life globally. Our ambition is to contribute innovations that advance industries, protect data, and ultimately serve the betterment of humanity.</p>
 								<p>{{ $about->getTranslation('content', app()->getLocale())['who_we_are'] ?? '' }}</p>
 							</div>
 
