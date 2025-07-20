@@ -9,7 +9,7 @@
         <div class="container">
 
             <main>
-                <div id="content_block" class="about_page">
+                <div id="content_block" class="aboutn_page">
 
 
                     <div class="page_content">
@@ -17,7 +17,7 @@
                     </div>
 
                     <div class="block">
-						<div class="about_section_group">
+						<div class="aboutn_section_group">
 							{{-- Section 1: Who We Are --}}
 							<div class="about_section">
 								<div class="icon mb-3">
@@ -33,7 +33,7 @@
 							</div>
 
 							{{-- Section 2: What We Do --}}
-							<div class="about_section">
+							<div class="aboutn_section">
 								<div class="icon mb-3">
 									{{-- Tools Icon --}}
 									<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -47,7 +47,7 @@
 							</div>
 
 							{{-- Section 3: How We Operate --}}
-							<div class="about_section">
+							<div class="aboutn_section">
 								<div class="icon mb-3">
 									{{-- Gear Icon --}}
 									<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
