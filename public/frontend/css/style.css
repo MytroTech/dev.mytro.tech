@@ -3750,6 +3750,44 @@ footer .solar a:hover span {
     left: 24px
 }
 
+.aboutn_section_group {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.aboutn_section {
+    flex: 1 1 30%;
+    max-width: 30%;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+.aboutn_section:hover {
+    transform: translateY(-5px);
+}
+
+.aboutn_section .icon {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.aboutn_section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.aboutn_section p {
+    font-size: 14px;
+    color: #555;
+}
 
 
 .about_page {
