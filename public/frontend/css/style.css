@@ -3588,7 +3588,7 @@ footer .solar span {
 .about_mt_page .block {
     position: relative;
     z-index: 5;
-    width: 460px;
+    width: 95%;
     margin: 0 auto;
     transform: none
 }
