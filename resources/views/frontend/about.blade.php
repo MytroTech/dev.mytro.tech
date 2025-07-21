@@ -22,16 +22,10 @@
 						<div class="about_mt_section_group">
 							{{-- Section 1: Who We Are --}}
 							<div class="about_mt_section">
-								<a href="{{ lang_route('whoweare') }}">Learn more about who we are</a>
-
 								<div class="icon">
-									{{-- People Icon --}}
-									<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-										 stroke-linecap="round" stroke-linejoin="round">
-										<path d="M17 20h5v-2a4 4 0 00-4-4h-1M6 20H1v-2a4 4 0 014-4h1m3-4a4 4 0 110-8 4 4 0 010 8zm6 0a4 4 0 110-8 4 4 0 010 8z"/>
-									</svg>
+									<a href="{{ lang_route('whoweare') }}"><i class="fa fa-users" aria-hidden="true"><h2>@lang('frontend/nav.captions.whoweare')</h2></i></a>								
 								</div>
-								<h2>@lang('frontend/nav.captions.whoweare')</h2>
+								
 								<p class="small text-muted">MytroTECH is a forward-thinking IT company founded in 2024 with a mission to reduce cost and implement more modern and secure technology for growing businesses.</p>
 								<p>Built by experienced IT leader, our company was born out of a desire to deliver smarter infrastructure, automation, and cybersecurity solutions without the complexity and delays of traditional consulting.</p>
 								<p>Over the past year, we’ve grown from a bold idea into a trusted technology partner serving clients across the United States and Europe. Our team brings deep expertise in enterprise IT, digital transformation, and modern DevOps practices.</p>
