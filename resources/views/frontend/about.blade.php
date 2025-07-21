@@ -22,7 +22,7 @@
 						<div class="about_mt_section_group">
 							{{-- Section 1: Who We Are --}}
 							<div class="about_mt_section">
-								<a href="{{ route('whoweare') }}">Learn more about who we are</a>
+								<a href="{{ lang_route('whoweare') }}">Learn more about who we are</a>
 
 								<div class="icon">
 									{{-- People Icon --}}
