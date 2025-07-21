@@ -4070,8 +4070,544 @@ footer .solar span {
     color: #555
 }
 
+/*----------------------*/
+/*------What we do -----*/
+/*----------------------*/
+
+.whatwedo_mt_page {
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    height: auto !important;
+    padding: 160px 0 115px;
+    position: relative
+}
+
+.whatwedo_mt_page .title_page {
+    margin: 0 0 58px;
+    padding-top: 15px
+}
+
+.whatwedo_mt_page .svg-mask-common {
+    pointer-events: none
+}
+
+.whatwedo_mt_page #drib_border_1, .whatwedo_mt_page #drib_border_2 {
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    transform: scale(1.3);
+    opacity: 1
+}
+
+.whatwedo_mt_page .drib_mask {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+.whatwedo_mt_page .svg-mask-common > circle, .whatwedo_mt_page .svg-mask-common > rect {
+    fill: #fff
+}
+
+.whatwedo_mt_page .page_content {
+    z-index: 5;
+    position: relative
+}
+
+.whatwedo_mt_page .block {
+    position: relative;
+    z-index: 5;
+    width: 95%;
+    margin: 0 auto;
+    transform: none
+}
+
+.whatwedo_mt_page .phones {
+    margin: 0 0 32px
+}
+
+.whatwedo_mt_page .phones .title {
+    font-weight: 300;
+    margin: 0 0 7px
+}
+
+.whatwedo_mt_page .phones a {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px
+}
+
+.whatwedo_mt_page .email {
+    color: #ef7b22;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration: none
+}
+
+.whatwedo_mt_page .address:hover div, .whatwedo_mt_page .email:hover {
+    text-decoration: underline
+}
+
+.whatwedo_mt_page .address {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 23px;
+    margin: 36px 0 0;
+    cursor: pointer
+}
+
+.whatwedo_mt_page .address div {
+    color: #ef7b22;
+    font-size: 16px;
+    font-weight: 700
+}
+
+.whatwedo_mt_page form {
+    margin: 137px 0 0
+}
+
+.whatwedo_mt_page form .title_form {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 30px
+}
+
+.whatwedo_mt_page form .flex_field {
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.whatwedo_mt_page form .flex_field .field {
+    width: 48%
+}
+
+.whatwedo_mt_page form .button {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 43px 0 0;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative
+}
+
+.whatwedo_mt_page form .button .sampleContainer {
+    position: absolute;
+    left: 0;
+    top: -4px;
+    opacity: 0;
+    -webkit-transition: .1s;
+    -o-transition: .1s;
+    -moz-transition: .1s;
+    transition: .1s
+}
+
+.whatwedo_mt_page form .button .sampleContainer.show {
+    opacity: 1
+}
+
+.whatwedo_mt_page form .button .loader_form {
+    position: relative;
+    width: 41px;
+    height: 5px;
+    margin: 12px auto
+}
+
+.whatwedo_mt_page form .button .dot {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    -webkit-border-radius: 2.5px;
+    -moz-border-radius: 2.5px;
+    border-radius: 2.5px;
+    background: #ccc;
+    position: absolute
+}
+
+.whatwedo_mt_page form .button .dot_1 {
+    -webkit-animation: animateDot1 1.5s linear infinite;
+    -moz-animation: animateDot1 1.5s linear infinite;
+    -o-animation: animateDot1 1.5s linear infinite;
+    animation: animateDot1 1.5s linear infinite;
+    left: 12px;
+    background: #ef7b22
+}
+
+.whatwedo_mt_page form .button .dot_2 {
+    -webkit-animation: animateDot2 1.5s linear infinite;
+    -moz-animation: animateDot2 1.5s linear infinite;
+    -o-animation: animateDot2 1.5s linear infinite;
+    animation: animateDot2 1.5s linear infinite;
+    -webkit-animation-delay: .5s;
+    -moz-animation-delay: .5s;
+    -o-animation-delay: .5s;
+    animation-delay: .5s;
+    left: 24px
+}
+
+.whatwedo_mt_page form .button .dot_3 {
+    -webkit-animation: animateDot3 1.5s linear infinite;
+    -moz-animation: animateDot3 1.5s linear infinite;
+    -o-animation: animateDot3 1.5s linear infinite;
+    animation: animateDot3 1.5s linear infinite;
+    left: 12px
+}
+
+.whatwedo_mt_page form .button .dot_4 {
+    -webkit-animation: animateDot4 1.5s linear infinite;
+    -moz-animation: animateDot4 1.5s linear infinite;
+    -o-animation: animateDot4 1.5s linear infinite;
+    animation: animateDot4 1.5s linear infinite;
+    -webkit-animation-delay: .5s;
+    -moz-animation-delay: .5s;
+    -o-animation-delay: .5s;
+    animation-delay: .5s;
+    left: 24px
+}
+
+.whatwedo_mt_intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    font-size: 18px;
+    color: #555
+}
+
+.whatwedo_mt_section_group {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 40px
+}
+
+.whatwedo_mt_section {
+    flex: 1 1 32%;
+    max-width: 32%;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+	min-height: 500px 
+}
+
+.whatwedo_mt_section:hover {
+    transform: translateY(-5px);
+}
+
+.whatwedo_mt_section .icon {
+    font-size: 48px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    margin-bottom: 15px
+}
+
+.whatwedo_mt_section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #000
+}
+
+.whatwedo_mt_section p {
+    font-size: 18px;
+	line-height: 1.6;
+    text-align: justify;
+    color: #555
+}
 
 
+/*----------------------*/
+/*------How we operate -----*/
+/*----------------------*/
+
+.howweoperate_mt_page {
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    height: auto !important;
+    padding: 160px 0 115px;
+    position: relative
+}
+
+.howweoperate_mt_page .title_page {
+    margin: 0 0 58px;
+    padding-top: 15px
+}
+
+.howweoperate_mt_page .svg-mask-common {
+    pointer-events: none
+}
+
+.howweoperate_mt_page #drib_border_1, .howweoperate_mt_page #drib_border_2 {
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    transform: scale(1.3);
+    opacity: 1
+}
+
+.howweoperate_mt_page .drib_mask {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+.howweoperate_mt_page .svg-mask-common > circle, .howweoperate_mt_page .svg-mask-common > rect {
+    fill: #fff
+}
+
+.howweoperate_mt_page .page_content {
+    z-index: 5;
+    position: relative
+}
+
+.howweoperate_mt_page .block {
+    position: relative;
+    z-index: 5;
+    width: 95%;
+    margin: 0 auto;
+    transform: none
+}
+
+.howweoperate_mt_page .phones {
+    margin: 0 0 32px
+}
+
+.howweoperate_mt_page .phones .title {
+    font-weight: 300;
+    margin: 0 0 7px
+}
+
+.howweoperate_mt_page .phones a {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px
+}
+
+.howweoperate_mt_page .email {
+    color: #ef7b22;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration: none
+}
+
+.howweoperate_mt_page .address:hover div, .howweoperate_mt_page .email:hover {
+    text-decoration: underline
+}
+
+.howweoperate_mt_page .address {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 23px;
+    margin: 36px 0 0;
+    cursor: pointer
+}
+
+.howweoperate_mt_page .address div {
+    color: #ef7b22;
+    font-size: 16px;
+    font-weight: 700
+}
+
+.howweoperate_mt_page form {
+    margin: 137px 0 0
+}
+
+.howweoperate_mt_page form .title_form {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 30px
+}
+
+.howweoperate_mt_page form .flex_field {
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.howweoperate_mt_page form .flex_field .field {
+    width: 48%
+}
+
+.howweoperate_mt_page form .button {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 43px 0 0;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative
+}
+
+.howweoperate_mt_page form .button .sampleContainer {
+    position: absolute;
+    left: 0;
+    top: -4px;
+    opacity: 0;
+    -webkit-transition: .1s;
+    -o-transition: .1s;
+    -moz-transition: .1s;
+    transition: .1s
+}
+
+.howweoperate_mt_page form .button .sampleContainer.show {
+    opacity: 1
+}
+
+.howweoperate_mt_page form .button .loader_form {
+    position: relative;
+    width: 41px;
+    height: 5px;
+    margin: 12px auto
+}
+
+.howweoperate_mt_page form .button .dot {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    -webkit-border-radius: 2.5px;
+    -moz-border-radius: 2.5px;
+    border-radius: 2.5px;
+    background: #ccc;
+    position: absolute
+}
+
+.howweoperate_mt_page form .button .dot_1 {
+    -webkit-animation: animateDot1 1.5s linear infinite;
+    -moz-animation: animateDot1 1.5s linear infinite;
+    -o-animation: animateDot1 1.5s linear infinite;
+    animation: animateDot1 1.5s linear infinite;
+    left: 12px;
+    background: #ef7b22
+}
+
+.howweoperate_mt_page form .button .dot_2 {
+    -webkit-animation: animateDot2 1.5s linear infinite;
+    -moz-animation: animateDot2 1.5s linear infinite;
+    -o-animation: animateDot2 1.5s linear infinite;
+    animation: animateDot2 1.5s linear infinite;
+    -webkit-animation-delay: .5s;
+    -moz-animation-delay: .5s;
+    -o-animation-delay: .5s;
+    animation-delay: .5s;
+    left: 24px
+}
+
+.howweoperate_mt_page form .button .dot_3 {
+    -webkit-animation: animateDot3 1.5s linear infinite;
+    -moz-animation: animateDot3 1.5s linear infinite;
+    -o-animation: animateDot3 1.5s linear infinite;
+    animation: animateDot3 1.5s linear infinite;
+    left: 12px
+}
+
+.howweoperate_mt_page form .button .dot_4 {
+    -webkit-animation: animateDot4 1.5s linear infinite;
+    -moz-animation: animateDot4 1.5s linear infinite;
+    -o-animation: animateDot4 1.5s linear infinite;
+    animation: animateDot4 1.5s linear infinite;
+    -webkit-animation-delay: .5s;
+    -moz-animation-delay: .5s;
+    -o-animation-delay: .5s;
+    animation-delay: .5s;
+    left: 24px
+}
+
+.howweoperate_mt_intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    font-size: 18px;
+    color: #555
+}
+
+.howweoperate_mt_section_group {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 40px
+}
+
+.howweoperate_mt_section {
+    flex: 1 1 32%;
+    max-width: 32%;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+	min-height: 500px 
+}
+
+.howweoperate_mt_section:hover {
+    transform: translateY(-5px);
+}
+
+.howweoperate_mt_section .icon {
+    font-size: 48px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    margin-bottom: 15px
+}
+
+.howweoperate_mt_section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #000
+}
+
+.howweoperate_mt_section p {
+    font-size: 18px;
+	line-height: 1.6;
+    text-align: justify;
+    color: #555
+}
 
 
 
