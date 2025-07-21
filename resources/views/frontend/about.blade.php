@@ -26,11 +26,11 @@
 									<a href="{{ lang_route('whoweare') }}"><i class="fa fa-users" aria-hidden="true"></i><span>@lang('frontend/nav.captions.whoweare')</span></a>								
 								</div>
 								
-								<p>MytroTECH is a modern IT company established in 2024 with a mission to make advanced, secure technology accessible and cost-effective for growing businesses.</p
+								<p>MytroTECH is a modern IT company established in 2024 with a mission to make advanced, secure technology accessible and cost-effective for growing businesses.</p>
 								<p><strong>Mission:</strong> To deliver smart, reliable IT solutions that drive efficiency, enhance security, and enable digital growth.</p> 
 								<p><strong>Vision:</strong> To lead the transformation of enterprise technology by simplifying complexity and shaping a safer, more innovative digital future.</p> 
 								<p><strong>Core Values:</strong> Innovation, trust, agility, transparency, and impact.</p> 
-								<p>Founded by a seasoned IT leader, MytroTECH was created to break away from the inefficiencies of traditional consulting. In just one year, we've grown into a trusted partner for clients across the U.S. and Europe, offering expertise in infrastructure, automation, cybersecurity, and DevOps. Beyond solving today’s challenges, we are committed to developing technologies that advance industries and benefit society on a global scale.</p>
+								<p>Founded by a seasoned IT leader, MytroTECH was created to break away from the inefficiencies of traditional consulting. In just one year, we've grown into a trusted partner for clients across the U.S. and Europe, offering expertise in complex IT solutions. Beyond solving today’s challenges, we are committed to developing technologies that advance industries and benefit society on a global scale.</p>
 								
 								<p>{{ $about->getTranslation('content', app()->getLocale())['who_we_are'] ?? '' }}</p>
 							</div>
