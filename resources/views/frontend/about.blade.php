@@ -26,10 +26,12 @@
 									<a href="{{ lang_route('whoweare') }}"><i class="fa fa-users" aria-hidden="true"></i><span>@lang('frontend/nav.captions.whoweare')</span></a>								
 								</div>
 								
-								<p class="small text-muted">MytroTECH is a forward-thinking IT company founded in 2024 with a mission to reduce cost and implement more modern and secure technology for growing businesses.</p>
-								<p>Built by experienced IT leader, our company was born out of a desire to deliver smarter infrastructure, automation, and cybersecurity solutions without the complexity and delays of traditional consulting.</p>
-								<p>Over the past year, we’ve grown from a bold idea into a trusted technology partner serving clients across the United States and Europe. Our team brings deep expertise in enterprise IT, digital transformation, and modern DevOps practices.</p>
-								<p>We are not only solving today’s business challenges — we are also actively investing in the development of groundbreaking technologies and products that aim to improve life globally. Our ambition is to contribute innovations that advance industries, protect data, and ultimately serve the betterment of humanity.</p>
+								<p>MytroTECH is a modern IT company established in 2024 with a mission to make advanced, secure technology accessible and cost-effective for growing businesses.</p
+								<p><strong>Mission:</strong> To deliver smart, reliable IT solutions that drive efficiency, enhance security, and enable digital growth.</p> 
+								<p><strong>Vision:</strong> To lead the transformation of enterprise technology by simplifying complexity and shaping a safer, more innovative digital future.</p> 
+								<p><strong>Core Values:</strong> Innovation, trust, agility, transparency, and impact.</p> 
+								<p>Founded by a seasoned IT leader, MytroTECH was created to break away from the inefficiencies of traditional consulting. In just one year, we've grown into a trusted partner for clients across the U.S. and Europe, offering expertise in infrastructure, automation, cybersecurity, and DevOps. Beyond solving today’s challenges, we are committed to developing technologies that advance industries and benefit society on a global scale.</p>
+								
 								<p>{{ $about->getTranslation('content', app()->getLocale())['who_we_are'] ?? '' }}</p>
 							</div>
 
@@ -38,9 +40,12 @@
 								<div class="icon">
 									<a href="{{ lang_route('whatwedo') }}"><i class="fa fa-server" aria-hidden="true"></i><span>@lang('frontend/nav.captions.whatwedo')</span></a>								
 								</div>
-								
-								<h2>@lang('frontend/nav.captions.whatwedo')</h2>
-								<p class="small text-muted">Our scope, industry position and areas of operation</p>
+						
+								<p class="small text-muted">MytroTECH delivers high-impact IT services that help organizations modernize, secure, and scale their operations in a digital-first world.</p> 
+								<p>We specialize in enterprise infrastructure, cloud solutions, cybersecurity, and business process automation—serving industries such as finance, logistics, healthcare, professional services, and technology startups.</p> 
+								<p>Our team holds industry-recognized certifications in networking, cloud architecture, and cybersecurity, and brings hands-on expertise with leading platforms including Cisco, Microsoft Azure, AWS, and VMware.</p> 
+								<p>Headquartered in the United States, we operate remotely with a growing presence across North America and Europe, allowing us to support clients with flexible, responsive service wherever they are.</p>
+				
 								<p>{{ $about->getTranslation('content', app()->getLocale())['what_we_do'] ?? '' }}</p>
 							</div>
 
@@ -50,8 +55,11 @@
 									<a href="{{ lang_route('howweoperate') }}"><i class="fa fa-cogs" aria-hidden="true"></i><span>@lang('frontend/nav.captions.howweoperate')</span></a>								
 								</div>
 								
-								<h2>@lang('frontend/nav.captions.howweoperate')</h2>
-								<p class="small text-muted">Business structure and team workflow</p>
+								<p class="small text-muted">MytroTECH is built on a solid legal and operational foundation to ensure trust, accountability, and long-term partnership.</p> 
+								<p>MytroTECH is a multi-member LLC registered in the Commonwealth of Pennsylvania. Our structure allows us to operate with agility while maintaining clear governance and accountability.</p> 
+								<p>We are fully licensed to conduct business in the United States and maintain appropriate liability insurance to support client engagements. We adhere to industry best practices for data security, confidentiality, and regulatory compliance.</p> 
+								<p>Our leadership team brings decades of combined experience in enterprise IT, and we operate with a commitment to transparency, professionalism, and service excellence across every client interaction.</p>
+								
 								<p>{{ $about->getTranslation('content', app()->getLocale())['how_we_operate'] ?? '' }}</p>
 							</div>
 						</div>
