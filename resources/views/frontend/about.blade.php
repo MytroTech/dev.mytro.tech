@@ -22,6 +22,8 @@
 						<div class="about_mt_section_group">
 							{{-- Section 1: Who We Are --}}
 							<div class="about_mt_section">
+							<a href="{{ route('about.whoweare') }}">Learn more about who we are</a>
+
 								<div class="icon">
 									{{-- People Icon --}}
 									<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
