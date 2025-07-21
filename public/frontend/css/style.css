@@ -4016,7 +4016,59 @@ footer .solar span {
     left: 24px
 }
 
+.whoweare_mt_intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    font-size: 18px;
+    color: #555
+}
 
+.whoweare_mt_section_group {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 40px
+}
+
+.whoweare_mt_section {
+    flex: 1 1 32%;
+    max-width: 32%;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+	min-height: 500px 
+}
+
+.whoweare_mt_section:hover {
+    transform: translateY(-5px);
+}
+
+.whoweare_mt_section .icon {
+    font-size: 48px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    margin-bottom: 15px
+}
+
+.whoweare_mt_section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #000
+}
+
+.whoweare_mt_section p {
+    font-size: 18px;
+	line-height: 1.6;
+    text-align: justify;
+    color: #555
+}
 
 
 
