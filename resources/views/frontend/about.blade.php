@@ -23,7 +23,7 @@
 							{{-- Section 1: Who We Are --}}
 							<div class="about_mt_section">
 								<div class="icon">
-									<a href="{{ lang_route('whoweare') }}"><i class="fa fa-users" aria-hidden="true"><h2>@lang('frontend/nav.captions.whoweare')</h2></i></a>								
+									<a href="{{ lang_route('whoweare') }}"><i class="fa fa-users" aria-hidden="true"></i><span>@lang('frontend/nav.captions.whoweare')</span></a>								
 								</div>
 								
 								<p class="small text-muted">MytroTECH is a forward-thinking IT company founded in 2024 with a mission to reduce cost and implement more modern and secure technology for growing businesses.</p>
