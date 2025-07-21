@@ -34,10 +34,9 @@
 
                    </div>
 
-                </div>
                 @include('frontend.modules.footer')
             </main>
-        </div>
+		</div>
     </div>
 
     </body>
