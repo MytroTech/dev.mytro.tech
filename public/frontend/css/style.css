@@ -3795,7 +3795,8 @@ footer .solar span {
 }
 
 .about_mt_section p {
-    font-size: 14px;
+    font-size: 18px;
+	line-height: 1.6;
     color: #555
 }
 
