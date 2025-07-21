@@ -3801,6 +3801,229 @@ footer .solar span {
     color: #555
 }
 
+/*----------------------*/
+/*------Who we are -----*/
+/*----------------------*/
+
+.whoweare_mt_page {
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    height: auto !important;
+    padding: 160px 0 115px;
+    position: relative
+}
+
+.whoweare_mt_page .title_page {
+    margin: 0 0 58px;
+    padding-top: 15px
+}
+
+.whoweare_mt_page .svg-mask-common {
+    pointer-events: none
+}
+
+.whoweare_mt_page #drib_border_1, .whoweare_mt_page #drib_border_2 {
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    transform: scale(1.3);
+    opacity: 1
+}
+
+.whoweare_mt_page .drib_mask {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+.whoweare_mt_page .svg-mask-common > circle, .whoweare_mt_page .svg-mask-common > rect {
+    fill: #fff
+}
+
+.whoweare_mt_page .page_content {
+    z-index: 5;
+    position: relative
+}
+
+.whoweare_mt_page .block {
+    position: relative;
+    z-index: 5;
+    width: 95%;
+    margin: 0 auto;
+    transform: none
+}
+
+.whoweare_mt_page .phones {
+    margin: 0 0 32px
+}
+
+.whoweare_mt_page .phones .title {
+    font-weight: 300;
+    margin: 0 0 7px
+}
+
+.whoweare_mt_page .phones a {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px
+}
+
+.whoweare_mt_page .email {
+    color: #ef7b22;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration: none
+}
+
+.whoweare_mt_page .address:hover div, .whoweare_mt_page .email:hover {
+    text-decoration: underline
+}
+
+.whoweare_mt_page .address {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 23px;
+    margin: 36px 0 0;
+    cursor: pointer
+}
+
+.whoweare_mt_page .address div {
+    color: #ef7b22;
+    font-size: 16px;
+    font-weight: 700
+}
+
+.whoweare_mt_page form {
+    margin: 137px 0 0
+}
+
+.whoweare_mt_page form .title_form {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 30px
+}
+
+.whoweare_mt_page form .flex_field {
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.whoweare_mt_page form .flex_field .field {
+    width: 48%
+}
+
+.whoweare_mt_page form .button {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 43px 0 0;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative
+}
+
+.whoweare_mt_page form .button .sampleContainer {
+    position: absolute;
+    left: 0;
+    top: -4px;
+    opacity: 0;
+    -webkit-transition: .1s;
+    -o-transition: .1s;
+    -moz-transition: .1s;
+    transition: .1s
+}
+
+.whoweare_mt_page form .button .sampleContainer.show {
+    opacity: 1
+}
+
+.whoweare_mt_page form .button .loader_form {
+    position: relative;
+    width: 41px;
+    height: 5px;
+    margin: 12px auto
+}
+
+.whoweare_mt_page form .button .dot {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    -webkit-border-radius: 2.5px;
+    -moz-border-radius: 2.5px;
+    border-radius: 2.5px;
+    background: #ccc;
+    position: absolute
+}
+
+.whoweare_mt_page form .button .dot_1 {
+    -webkit-animation: animateDot1 1.5s linear infinite;
+    -moz-animation: animateDot1 1.5s linear infinite;
+    -o-animation: animateDot1 1.5s linear infinite;
+    animation: animateDot1 1.5s linear infinite;
+    left: 12px;
+    background: #ef7b22
+}
+
+.whoweare_mt_page form .button .dot_2 {
+    -webkit-animation: animateDot2 1.5s linear infinite;
+    -moz-animation: animateDot2 1.5s linear infinite;
+    -o-animation: animateDot2 1.5s linear infinite;
+    animation: animateDot2 1.5s linear infinite;
+    -webkit-animation-delay: .5s;
+    -moz-animation-delay: .5s;
+    -o-animation-delay: .5s;
+    animation-delay: .5s;
+    left: 24px
+}
+
+.whoweare_mt_page form .button .dot_3 {
+    -webkit-animation: animateDot3 1.5s linear infinite;
+    -moz-animation: animateDot3 1.5s linear infinite;
+    -o-animation: animateDot3 1.5s linear infinite;
+    animation: animateDot3 1.5s linear infinite;
+    left: 12px
+}
+
+.whoweare_mt_page form .button .dot_4 {
+    -webkit-animation: animateDot4 1.5s linear infinite;
+    -moz-animation: animateDot4 1.5s linear infinite;
+    -o-animation: animateDot4 1.5s linear infinite;
+    animation: animateDot4 1.5s linear infinite;
+    -webkit-animation-delay: .5s;
+    -moz-animation-delay: .5s;
+    -o-animation-delay: .5s;
+    animation-delay: .5s;
+    left: 24px
+}
+
+
+
+
+
+
+
+
+
 
 /* ----------------*/
 /*  ------ Contact ---------*/
