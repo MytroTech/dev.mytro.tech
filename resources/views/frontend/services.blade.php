@@ -57,30 +57,6 @@
                                     <img src="/frontend/img/flex.svg" width="521" height="421" alt="">
                                 </div>
                             </div>
-                            <div class="item">
-                                <div class="ill">
-                                    <img src="/frontend/img/lab.svg" width="368" height="396" alt="">
-                                </div>
-
-                                <div class="text tar">
-                                    <div class="title">{!! $services->where('slug','quality')->first()->translate('name',session('db_lang>                                    <p>
-                                        {!! $services->where('slug','quality')->first()->translate('excerpt',session('db_lang')) !!}
-                                    </p>
-                                    <a href="{{lang_route('services',['service'=>'quality'])}}"><span>@lang('frontend/index.captions.more>                                </div>
-                            </div>
-
-                            <div class="item">
-
-                                <div class="text">
-                                    <div class="title">{!! $services->where('slug','flexitanks')->first()->translate('name',session('db_l>                                    <p>
-                                        {!! $services->where('slug','flexitanks')->first()->translate('excerpt',session('db_lang')) !!}
-                                    </p>
-                                    <a href="{{lang_route('services',['service'=>'flexitanks'])}}"><span>@lang('frontend/index.captions.m>                                </div>
-
-                                <div class="ill">
-                                    <img src="/frontend/img/flex.svg" width="521" height="421" alt="">
-                                </div>
-                            </div>
 
                         </div>
                         <div class="partners">
